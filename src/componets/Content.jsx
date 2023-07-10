@@ -45,11 +45,10 @@ const Content = () => {
                 <div className="w-full md:w-1/2 px-2 lg:px-5">
                     <button type="button" className="font-semibold rounded bg-red-400 text-white px-6 py-2 my-3" onClick={showText}>Get Quote</button>
                     {Object.entries(text).length === 0 ?<div className="bg-gray-300 rounded-lg p-5">
-                        <p className="text-2xl text-justify">{loveQuotes[0].quote}</p>
-                        <span className="text-lg font-medium italic mt-2 ">{loveQuotes[0].author}</span>
+                        <p className="text-2xl text-justify">Please press the button to get a Love Quote! ♥♥♥</p>
                     </div>: <div className="bg-gray-300 rounded-lg p-5">
                         <p className="text-2xl text-justify">{text.quote}</p>
-                        <span className="text-lg font-medium italic mt-2 ">{text.author}</span>
+                        <span className="text-lg font-medium italic mt-2 ">- {text.author}</span>
                     </div>}
                 </div>
                 <div className="w-full md:w-1/2">
