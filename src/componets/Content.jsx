@@ -4,7 +4,7 @@ import { useState } from "react";
 const Content = () => {
     const loveQuotes = [
     {
-        quote:"Love is always patient and kind. It is never jealous. Love is never boastful or conceited. It is never rude or selfish. It does not take offense and is not resentful. Love takes no pleasure in other people's sins, but delights in the truth. It is always ready to excuse, to trust, to hope, and to endure whatever comes.",
+        quote:"Love has nothing to do with what you are expecting to get–only with what you are expecting to give–which is everything.",
         author: "Katharine Hepburn"
     },
     {
