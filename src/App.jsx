@@ -6,7 +6,7 @@ import Header from "./componets/Header";
 const App = () => {
   return (
     <div>
-      <Header title={"Display Text"} />
+      <Header title={"Generate Quote"} />
       <Content />
       <Footer />
     </div>
